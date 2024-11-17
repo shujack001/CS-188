@@ -36,6 +36,7 @@ def buyLotsOfFruit(orderList):
     """
     totalCost = 0.0
     "*** YOUR CODE HERE ***"
+    fruit, numpounds = orderList.split(",")
     return totalCost
 
 
